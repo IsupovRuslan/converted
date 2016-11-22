@@ -1,0 +1,160 @@
+@media (max-width: 640px) {
+  #goals {
+    display:none
+  }
+  #header-goals {
+    display:none
+  }
+  #conc-goals{
+    display:none
+  }
+  #header-conc-goals{
+    display:none
+  }
+}
+
+@media (max-width: 520px) {
+  #win {
+    display:none
+  }
+  #header-win {
+    display:none
+  }
+  #draw{
+    display:none
+  }
+  #header-draw{
+    display:none
+  }
+  #lose{
+    display:none
+  }
+  #header-lose{
+    display:none
+  }
+}
+
+#App {
+width:100%
+}
+
+body {
+font-family: sans-serif;
+font-size: 13px;
+margin:0;
+padding:17px 17px 16px 18px         /* Отступы заданы по макету*/
+}
+
+table {
+border-collapse: collapse;
+width:100%;
+background: #ffffff;
+}
+
+img{
+margin-left:10px;
+margin-right: 4px
+}
+
+td,th {
+height: 30px;
+text-align: center;
+border: 1px solid #d8d8d8;
+}
+
+a{
+color: #006496;                    /* Цвет ссылок */
+text-decoration: none
+}
+
+a:visited {
+color: #006496;                    /* Цвет посещенных ссылок */
+}
+
+a:active {
+color: #006496;                    /* Цвет активных ссылок */
+}
+
+.place{                            /*Колонка "Место" */
+color: #006496;
+width:40px;                        /*задаём фиксированную ширину  (по макету =40px)*/
+min-width:40px;
+}
+
+.team{
+cursor: pointer;                           /* заголовок для колонки "Команда"*/
+padding-left: 5px;
+font-size: 16px;
+text-align:left;
+min-width:150px                    /*задаём минимальную ширину  (по условию >=150px)*/
+}
+
+.teams{                           /* колонка "Команда" */
+font-size: 13px;
+text-align:left;
+color: #000000;
+min-width:150px                   /*задаём минимальную ширину  (по условию >=150px)*/
+}
+
+.stats-header{
+cursor: pointer;                  /* заголовок статистики */
+color: #006496;
+width:50px;                       /*задаём фиксированную ширину  (по макету =50px)*/
+min-width:50px;
+}
+
+.stats-score-header{
+cursor: pointer;              /* заголовок для колонки "Очки" */
+color: #006496;
+background:#f9f9f7;
+width:50px;                      /*задаём фиксированную ширину  (по макету =50px)*/
+min-width:50px;
+}
+
+.score{                          /*Колонка "Очки"*/
+background:#f9f9f7;
+width:50px;                      /*задаём фиксированную ширину  (по макету =50px)*/
+min-width:50px;
+}
+
+.footnote {                      /*Примечания*/
+font-weight: bold;
+}
+
+[title='color'] {                /* определение цвета строкам в первой колонке  */
+padding-left:10px;
+text-align: left;
+}
+
+[title='color1'] {               /* ^^^ */
+padding-left:10px;
+text-align: left;
+background: #7fd498
+}
+
+[title='color2'] {               /* ^^^ */
+padding-left:10px;
+text-align: left;
+background: #cceed6
+}
+
+[title='color4'] {               /* ^^^ */
+padding-left:10px;
+text-align: left;
+background: #ff99b1
+}
+
+
+[title='border-c']{               /* Удаление границ между колонками */
+border-right:0;
+border-left:0
+}
+
+[title='border-r']{               /* ^^^ */
+border-right:0;
+border-left:0
+}
+
+[title='border-l']{               /* ^^^ */
+border-left:0;
+}
